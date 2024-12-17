@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GM</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="pb-8">
+    <header>
+      <input class="hidden" id="check" type="checkbox" />
+      <div
+        class="links flex items-center gap-5 justify-between bg-primary px-10 max-[862px]:justify-center py-2"
+      >
+        <label
+          for="check"
+          class="max-[661px]:block hidden top-4 left-5 absolute"
+        >
+          <i class="text-white fa-solid fa-xmark"></i>
+        </label>
+        <p class="text-[12px] font-medium text-white max-[862px]:hidden">
+          ТЦ Горбушка, г. Москва, ул. Барклая, 8
+        </p>
+        <ul
+          class="text-[12px] font-medium text-white flex items-center gap-6 max-[661px]:flex-col"
+        >
+          <li><a href="/">О компании</a></li>
+          <li><a href="/">Доставка и оплата</a></li>
+          <li><a href="/">Обмен и возврат</a></li>
+          <li><a href="/">Гарантия и сервис</a></li>
+          <li><a href="/">Контакты</a></li>
+          <a
+            class="font-medium items-center gap-1 max-[661px]:flex hidden"
+            href="tel:+7 (916) 842-34-30"
+            ><img src="./assets/svg/phone.svg" alt="" />+7 (916) 842-34-30</a
+          >
+        </ul>
+      </div>
+      <div class="container2 py-3">
+        <div class="flex items-center gap-5 max-[641px]:w-full">
+          <a href="./index.html"> <img src="./assets/svg/logo.svg" alt="" /></a>
+          <div class="w-full flex flex-col gap-5">
+            <div
+              class="flex items-center gap-4 justify-between max-[641px]:justify-end"
+            >
+              <div
+                class="pl-5 border border-[#ddd] rounded-lg flex items-center gap-5 w-[60%] max-[814px]:w-[40%] max-[632px]:w-[45%] max-[477px]:hidden"
+              >
+                <input
+                  class="text-[13px] font-medium text-opacity-60 w-full"
+                  placeholder="Поиск"
+                  type="text"
+                /><button
+                  class="rounded-lg bg-primarygreen flex items-center justify-center gap-2 px-5 py-2"
+                >
+                  <img src="./assets/svg/search.svg" alt="" />
+                  <p class="text-[14px] text-white font-medium">Найти</p>
+                </button>
+              </div>
+              <div class="flex items-center gap-4 max-[1173px]:hidden">
+                <img src="./assets/svg/telegram.svg" alt="" />
+                <img src="./assets/svg/whatrsap.svg" alt="" />
+              </div>
+              <a
+                class="font-medium flex items-center gap-1 max-[661px]:hidden"
+                href="tel:+7 (916) 842-34-30"
+                ><img src="./assets/svg/phone.svg" alt="" />+7 (916)
+                842-34-30</a
+              >
+              <label for="kata">
+                <div
+                class="bg-primarygreen max-[661px]:flex items-center gap-2 py-2 max-[654px]:p-3 px-4 rounded-lg max-[477px]:hidden hidden"
+              >
+                <img src="./assets/svg/katalog.svg" alt="" />
+                <p class="font-medium text-white max-[654px]:hidden">Каталог</p>
+              </div>
+              </label>
+              <div class="flex items-center gap-4 max-[477px]:hidden">
+                <img src="./assets/svg/Union.svg" alt="" />
+                <img src="./assets/svg/like.svg" alt="" />
+              </div>
+              <label for="check" class="hidden max-[661px]:block"
+                ><i class="fa-solid fa-bars-staggered"></i
+              ></label>
+            </div>
+            <div
+              class="fixed z-[888] bg-white bottom-0 left-0 hidden items-center gap-5 justify-between px-8 py-3 shadow-[] border-t w-full max-[477px]:flex"
+            >
+              <button
+                class="rounded-lg bg-primarygreen flex items-center justify-center gap-2 p-1.5 flex-col"
+              >
+                <img class="h-4 w-4" src="./assets/svg/search.svg" alt="" />
+              </button>
+              <div class="flex items-center gap-4 max-[1173px]:hidden">
+                <img src="./assets/svg/telegram.svg" alt="" />
+                <img src="./assets/svg/whatrsap.svg" alt="" />
+              </div>
+              <label for="kata">
+                <div
+                class="bg-primarygreen flex items-center gap-2 py-2 max-[654px]:p-2 px-4 rounded-lg"
+              >
+                <img src="./assets/svg/katalog.svg" alt="" />
+                <p class="font-medium text-white max-[654px]:hidden">Каталог</p>
+              </div>
+              </label>
+
+              <img src="./assets/svg/Union.svg" alt="" />
+              <img src="./assets/svg/like.svg" alt="" />
+            </div>
+            <div
+              class="flex items-center gap-3 justify-between max-[661px]:hidden"
+            >
+              <label for="kata">
+                <div
+                class="bg-primarygreen flex items-center gap-2 py-2 px-4 rounded-lg"
+              >
+                <img src="./assets/svg/katalog.svg" alt="" />
+                <p class="font-medium text-white">Каталог</p>
+              </div>
+              </label>
+              <p
+                class="text-[15px] text-primarygreen font-medium hover:bg-[#f5f5f5] duration-500 rounded-2xl py-1 px-2"
+              >
+                iPhone 14 Pro Макс 256
+              </p>
+              <p
+                class="text-[15px] text-primarygreen font-medium hover:bg-[#f5f5f5] duration-500 rounded-2xl py-1 px-2"
+              >
+                Apple TV 4K 2022
+              </p>
+              <p
+                class="text-[15px] text-primarygreen font-medium hover:bg-[#f5f5f5] duration-500 rounded-2xl py-1 px-2 max-[836px]:hidden"
+              >
+                Apple Watch Series Ultra
+              </p>
+              <p
+                class="text-[15px] text-primarygreen font-medium hover:bg-[#f5f5f5] duration-500 rounded-2xl py-1 px-2 max-[1018px]:hidden"
+              >
+                MacBook Pro 14 M2
+              </p>
+              <p
+                class="text-[15px] text-primarygreen font-medium hover:bg-[#f5f5f5] duration-500 rounded-2xl py-1 px-2 max-[1173px]:hidden"
+              >
+                iPad Pro M2
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container2 py-5">
+        <p class="text-[12px] font-medium text-[#262626]">
+          <a href="./index.html" class="text-[#aaa]">Главная / </a>
+          Каталог товаров
+        </p>
+        <h1 class="text-[37px] font-medium text-[#262626]">Смартфоны</h1>
+
+        <div class="flex gap-5 items-start relative">
+            <input class="hidden" id="kata" type="checkbox">
+          <div
+            class="basis-[27%] kata sticky top-0 rounded-lg border-2 border-primary border-opacity-70 flex flex-col max-[750px]:border-none"
+          >
+          <label for="kata" class="max-[750px]:block hidden absolute top-5 left-6"> <i class=" fa-solid fa-xmark"></i></label>
+            <div class="py-2 w-full bg-[#f5f5f5] text-center rounded-lg">
+              <p class="font-semibold text-[#262626]">Фильтр по параметрам</p>
+            </div>
+            <div class="p-3 flex flex-col gap-2">
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Бренд</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" />
+                  <p class="text-[13px]">Apple</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" />
+                  <p class="text-[13px]">Samsung</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" />
+                  <p class="text-[13px]">Xiaomi</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" />
+                  <p class="text-[13px]">Xiaomi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-3 flex flex-col gap-2">
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Цена</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="grid grid-cols-2 gap-5">
+                  <div class="text-[13px] opacity-50 border rounded-lg p-2">
+                    25 200
+                  </div>
+                  <div class="text-[13px] opacity-50 border rounded-lg p-2">
+                    125 200
+                  </div>
+                </div>
+                <input type="range" />
+              </div>
+            </div>
+            <div class="p-3 flex flex-col gap-2">
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Цена</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+
+              <div class="grid grid-cols-5 gap-3 w-fit max-[851px]:grid-cols-4">
+                <div
+                  class="bg-[#f2edcb] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="border w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#6893f0] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#ffd700] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#257d1d] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#ccaa8a] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#ffc0cb] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#c0c0c0] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#2b2b87] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-rose-400 w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-red-600 w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#000] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-[#808080] w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-lime-500 w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-purple-700 w-7 h-7 rounded-full flex items-center justify-center *:hover:opacity-100 duration-500"
+                >
+                  <img
+                    class="opacity-0 duration-500"
+                    src="./assets/svg/checked.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="p-3 flex flex-col gap-2">
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Модель</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Товары со скидкой</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Процессор</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Количество ядер</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Диагональ экрана</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Кол-во Sim</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Поддержка e-Sim</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Тип экрана</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Количество ядер</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Частота процессора</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-4 justify-between">
+                <p class="text-[13px] font-semibold">Емкость батареи</p>
+                <img src="./assets/svg/arroow.svg" alt="" />
+              </div>
+            </div>
+            <button
+              class="text-[15px] font-medium text-white opacity-90 bg-primarygreen rounded-lg m-3 py-2 px-3 max-[762px]:text-[14px]"
+            >
+              Сбросить фильтры
+            </button>
+          </div>
+
+          <div class="basis-[73%] max-[750px]:basis-full">
+           
+            <div
+              class="flex items-center gap-5 justify-between pb-4 max-[489px]:hidden"
+            >
+              <ul class="text-primarygreen font-medium flex items-center gap-5">
+                <li>
+                  <a
+                    class="duration-500 hover:border-primarygreen border-b border-transparent"
+                    href="/2"
+                    >Лидеры продаж</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="duration-500 hover:border-primarygreen border-b border-transparent"
+                    href="/2"
+                    >Новинки</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="duration-500 hover:border-primarygreen border-b border-transparent"
+                    href="/2"
+                    >Акции</a
+                  >
+                </li>
+              </ul>
+              <div class="flex items-center gap-2">
+                <p class="text-primarygreen font-medium">Смотреть все</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <div
+              class="rounded-lg grid grid-cols-3 border-2 max-[1074px]:grid-cols-2 max-[750px]:grid-cols-2 max-[538px]:grid-cols-1"
+            >
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product2.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 border-2 flex items-center flex-col gap-2">
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <p
+                    class="font-semibold text-[12px] bg-[#d2e5d2] rounded px-2 py-1 text-[#262626]"
+                  >
+                    Хит
+                  </p>
+                  <div class="flex items-center gap-3">
+                    <img src="./assets/svg/opicityunion.svg" alt="" />
+                    <img src="./assets/svg/like.svg" alt="" />
+                  </div>
+                </div>
+                <img src="./assets/img/product1.png" alt="" />
+                <p
+                  class="text-[13px] text-[#262626] font-medium max-w-[318px] text-ellipsis w-[205px] whitespace-normal line-clamp-2"
+                >
+                  Планшет Apple iPad Air (2022) 10.9" Wi-Fi 64Gb серый космос
+                  (MM9C3)
+                </p>
+                <div class="flex items-center gap-5 justify-between w-full">
+                  <div class="flex flex-col gap-1">
+                    <img src="./assets/svg/star.svg" alt="" />
+                    <p class="line-through opacity-30">33 990 ₽</p>
+                    <p class="text-[25px] text-[#262626] font-bold">56 102 ₽</p>
+                  </div>
+                  <button
+                    class="text-[15px] text-white bg-primarygreen rounded-lg font-medium py-2 px-4 text-center"
+                  >
+                    Купить
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary py-3 mt-10">
+      <div class="container2">
+        <div
+          class="flex items-start gap-5 justify-between py-7 max-[958px]:flex-col max-[958px]:gap-8 max-[958px]:items-center"
+        >
+          <div class="flex gap-16 max-[1042px]:gap-8 max-[500px]:flex-col">
+            <img src="./assets/svg/logofooter.svg" alt="" />
+            <ul
+              class="text-white text-[13px] opacity-80 flex flex-col gap-2 max-[500px]:text-center"
+            >
+              <li><a href="footer">О компании</a></li>
+              <li><a href="footer">Доставка и оплата</a></li>
+              <li><a href="footer">Обмен и возврат</a></li>
+            </ul>
+            <ul
+              class="text-white text-[13px] opacity-80 flex flex-col gap-2 max-[500px]:text-center"
+            >
+              <li><a href="footer">Гарантия и сервис</a></li>
+              <li><a href="footer">Контакты</a></li>
+              <li><a href="footer">Каталог</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-11 max-[1042px]:gap-5 max-[500px]:flex-col">
+            <div class="flex flex-col gap-4 max-[500px]:text-center">
+              <p class="text-white text-[13px]">
+                ТЦ Горбушка, г. Москва, ул. Барклая, 8
+              </p>
+              <p class="text-white text-[13px]">10:00 — 21:00 без выходных</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <a
+                class="font-medium flex items-center gap-1 text-white text-[13px] justify-end max-[500px]:justify-center"
+                href="tel:+7 (916) 842-34-30"
+              >
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 2.35714C0 1.73199 0.248341 1.13244 0.690391 0.690391C1.13244 0.248341 1.73199 0 2.35714 0H3.43514C4.11086 0 4.70014 0.460429 4.86436 1.11571L5.73257 4.59093C5.80293 4.87221 5.78872 5.168 5.69172 5.44125C5.59472 5.71449 5.41925 5.95304 5.18729 6.127L4.17136 6.88914C4.06529 6.9685 4.0425 7.08479 4.07236 7.16571C4.5158 8.37167 5.21604 9.46684 6.1246 10.3754C7.03316 11.284 8.12833 11.9842 9.33429 12.4276C9.41521 12.4575 9.53071 12.4347 9.61086 12.3286L10.373 11.3127C10.547 11.0808 10.7855 10.9053 11.0588 10.8083C11.332 10.7113 11.6278 10.6971 11.9091 10.7674L15.3843 11.6356C16.0396 11.7999 16.5 12.3891 16.5 13.0656V14.1429C16.5 14.768 16.2517 15.3676 15.8096 15.8096C15.3676 16.2517 14.768 16.5 14.1429 16.5H12.375C5.54086 16.5 0 10.9591 0 4.125V2.35714Z"
+                    fill="white"
+                  />
+                </svg>
+                +7 (916) 842-34-30</a
+              >
+              <a
+                class="font-medium flex items-center gap-1 text-white text-[13px] justify-end max-[500px]:justify-center"
+                href="mailto:gorbushka-moscow@yandex.ru"
+                >gorbushka-moscow@yandex.ru</a
+              >
+              <div
+                class="flex items-center gap-4 justify-end max-[500px]:justify-center"
+              >
+                <img src="./assets/svg/telegram.svg" alt="" />
+                <img src="./assets/svg/whatrsap.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
